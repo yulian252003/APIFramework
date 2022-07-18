@@ -12,11 +12,11 @@ Multiparts:		<none>
 Body:
 {
     "accuracy": 50,
-    "name": "Shetty",
+    "name": "Aguadas",
     "phone_number": "+573212141352",
-    "address": "Asia",
+    "address": "KR Nro1829",
     "website": "http://google.com",
-    "language": "English",
+    "language": "Spanish",
     "location": {
         "lat": -38.383494,
         "lng": 33.427362
@@ -27,7 +27,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Mon, 18 Jul 2022 00:16:00 GMT
+Date: Mon, 18 Jul 2022 12:33:24 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,17 +40,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "edcfa70a7c7efd9608d34e7dfb2b24a1",
+    "place_id": "90c587d01a24b553480b7051c7cb7c91",
     "scope": "APP",
-    "reference": "47f0594395b8782016e746a2fcfe895547f0594395b8782016e746a2fcfe8955",
-    "id": "47f0594395b8782016e746a2fcfe8955"
+    "reference": "2ba974bf8f1168501ed7b6c5c5c0ea8c2ba974bf8f1168501ed7b6c5c5c0ea8c",
+    "id": "2ba974bf8f1168501ed7b6c5c5c0ea8c"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=edcfa70a7c7efd9608d34e7dfb2b24a1
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=90c587d01a24b553480b7051c7cb7c91
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=edcfa70a7c7efd9608d34e7dfb2b24a1
+				place_id=90c587d01a24b553480b7051c7cb7c91
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,13 +59,13 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 Jul 2022 00:16:02 GMT
+Date: Mon, 18 Jul 2022 12:33:25 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 220
+Content-Length: 227
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
@@ -76,41 +76,10 @@ Content-Type: application/json;charset=UTF-8
         "longitude": "33.427362"
     },
     "accuracy": "50",
-    "name": "Shetty",
+    "name": "Aguadas",
     "phone_number": "+573212141352",
-    "address": "Asia",
+    "address": "KR Nro1829",
     "types": "shoe park,shop",
     "website": "http://google.com",
-    "language": "English"
-}
-Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123&place_id=edcfa70a7c7efd9608d34e7dfb2b24a1
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-				place_id=edcfa70a7c7efd9608d34e7dfb2b24a1
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "place_id": "edcfa70a7c7efd9608d34e7dfb2b24a1"
-}
-HTTP/1.1 200 OK
-Date: Mon, 18 Jul 2022 00:16:03 GMT
-Server: Apache/2.4.41 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 15
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "status": "OK"
+    "language": "Spanish"
 }
