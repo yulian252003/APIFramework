@@ -8,15 +8,15 @@ import pojo.Location;
 
 public class TestDataBuild
 {
-	public AddPlace addPlacePayLoad()
+	public AddPlace addPlacePayLoad(String name,String language, String address)
 	{
 		AddPlace p =new AddPlace();
         p.setAccuracy(50);
-        p.setAddress("carrer 26");
-        p.setLanguage("French-IN");
+        p.setAddress(address);
+        p.setLanguage(language);
         p.setPhone_number("+573212141352");
         p.setWebsite("http://google.com");
-        p.setName("Manizales");
+        p.setName(name);
         List<String>myList =new ArrayList<String>();
         myList.add("shoe park");
         myList.add("shop");
@@ -26,6 +26,11 @@ public class TestDataBuild
         l.setLng(33.427362);
         p.setLocation(l);
         return p;
+	}
+	
+	public String deletePlacePayload(String place_id)
+	{
+		return "{\r\n\"place_id\":\""+place_id+"\"\r\n}";
 	}
 
 }

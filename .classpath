@@ -31,6 +31,13 @@
 			<attribute name="m2e-apt" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/yulia/OneDrive/Documents/jarespararest/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yulia/OneDrive/Documents/jarespararest/guice-4.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yulia/OneDrive/Documents/jarespararest/jackson-annotations-2.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yulia/OneDrive/Documents/jarespararest/jackson-core-2.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yulia/OneDrive/Documents/jarespararest/jackson-databind-2.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yulia/OneDrive/Documents/jarespararest/jcommander-1.27.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yulia/OneDrive/Documents/jarespararest/testng-7.1.0.jar"/>
 	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
 		<attributes>
 			<attribute name="optional" value="true"/>
